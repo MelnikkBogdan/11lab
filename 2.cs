@@ -12,14 +12,14 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {   string m = Console.ReadLine();
             
-            int nomer; // Номер в алфавите
-            int d; // Смещение
-            string s; //Результат
-            int j; // Переменная для циклов
+            int nomer; 
+            int d; 
+            string s; 
+            int j; 
 
             char[] massage = m.ToCharArray();
 
-            char[] alfavit = { 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я' };
+            char[] alfavit = { 'а', 'б', 'в', 'г', 'д', 'е', 'є', 'ж', 'з', 'и','i', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ь', 'э', 'ю', 'я' };
             for (int i = 0; i < massage.Length; i++)
             {
                 // Ищем индекс буквы
