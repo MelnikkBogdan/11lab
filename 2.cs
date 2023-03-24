@@ -22,7 +22,7 @@ namespace ConsoleApp5
             char[] alfavit = { 'а', 'б', 'в', 'г', 'д', 'е', 'є', 'ж', 'з', 'и','i', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ь', 'э', 'ю', 'я' };
             for (int i = 0; i < massage.Length; i++)
             {
-                // Ищем индекс буквы
+                
                 for (j = 0; j < alfavit.Length; j++)
                 {
                     if (massage[i] == alfavit[j])
